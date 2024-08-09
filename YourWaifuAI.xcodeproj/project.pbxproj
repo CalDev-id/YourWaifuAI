@@ -13,8 +13,7 @@
 		2EA1D0132C60A2EB00A3A437 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA1D0122C60A2EB00A3A437 /* Preview Assets.xcassets */; };
 		2EA1D01B2C61D75300A3A437 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1D01A2C61D75300A3A437 /* ChatModel.swift */; };
 		2EA1D01E2C61D97500A3A437 /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1D01D2C61D97500A3A437 /* ChatService.swift */; };
-		2EA1D0212C62171700A3A437 /* ChatService2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1D0202C62171700A3A437 /* ChatService2.swift */; };
-		2EA1D0232C62188B00A3A437 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1D0222C62188B00A3A437 /* ContentView2.swift */; };
+		2EA1D0462C66833200A3A437 /* DotLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1D0452C66833200A3A437 /* DotLoading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +24,7 @@
 		2EA1D0122C60A2EB00A3A437 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2EA1D01A2C61D75300A3A437 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 		2EA1D01D2C61D97500A3A437 /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
-		2EA1D0202C62171700A3A437 /* ChatService2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService2.swift; sourceTree = "<group>"; };
-		2EA1D0222C62188B00A3A437 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		2EA1D0452C66833200A3A437 /* DotLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 			children = (
 				2EA1D00B2C60A2E900A3A437 /* YourWaifuAIApp.swift */,
 				2EA1D00D2C60A2E900A3A437 /* ContentView.swift */,
-				2EA1D0222C62188B00A3A437 /* ContentView2.swift */,
 				2EA1D01F2C61D99000A3A437 /* Views */,
 				2EA1D01C2C61D96500A3A437 /* Services */,
 				2EA1D0192C61D73D00A3A437 /* models */,
@@ -91,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				2EA1D01D2C61D97500A3A437 /* ChatService.swift */,
-				2EA1D0202C62171700A3A437 /* ChatService2.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -99,8 +95,17 @@
 		2EA1D01F2C61D99000A3A437 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2EA1D0442C66832200A3A437 /* Components */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2EA1D0442C66832200A3A437 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2EA1D0452C66833200A3A437 /* DotLoading.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,10 +178,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA1D0462C66833200A3A437 /* DotLoading.swift in Sources */,
 				2EA1D00E2C60A2E900A3A437 /* ContentView.swift in Sources */,
-				2EA1D0212C62171700A3A437 /* ChatService2.swift in Sources */,
 				2EA1D01E2C61D97500A3A437 /* ChatService.swift in Sources */,
-				2EA1D0232C62188B00A3A437 /* ContentView2.swift in Sources */,
 				2EA1D00C2C60A2E900A3A437 /* YourWaifuAIApp.swift in Sources */,
 				2EA1D01B2C61D75300A3A437 /* ChatModel.swift in Sources */,
 			);
