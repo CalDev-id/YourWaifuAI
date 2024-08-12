@@ -140,7 +140,7 @@ class ChatViewModel: ObservableObject {
     }
     
     func sendMessageToModel(userID: String, userPrompt: String) {
-        let url = URL(string: "https://major-gisella-caldev-4864ed86.koyeb.app/chat-waifu")!
+        let url = URL(string: "https://parallel-arabelle-waifu-ical-cd5f2cfe.koyeb.app/chat-waifu")!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
